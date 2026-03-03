@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEBASIS BEHERA</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <a href="#" class="logo">DevPortfolio.</a>
+
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <i
+                class="fas fa-moon theme-toggle"
+                id="themeToggle"
+                title="Toggle Dark/Light Mode"
+              ></i>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Debasis Behera</span><br />Web Developer</h1>
+          <p class="hero-tagline">
+            Specializing in Python, C, and building modern web experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:email@example.com" aria-label="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+            <div class="hero-img-wrapper">
+            <img src="assets/myphoto.jpg" alt="Debasis Profile Photo" class="hero-img">
+        </div>
+    </section>
+
+    <section class="section-padding" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">My Introduction</p>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p style="margin-bottom: 20px">
+              I am a passionate developer with a strong foundation in Python and
+              C programming, combined with a flair for front-end web
+              development. I recently participated in a hackathon developing
+              "CYBER HARVEST," where I led the front-end design. I love history,
+              specifically the culture of the Indian subcontinent, and I bring
+              that same curiosity to debugging code.
+            </p>
+            <a href="./DEBASIS.pdf" class="btn btn-primary" download
+              >Download Resume <i class="fas fa-download"></i
+            ></a>
+          </div>
+
+          <div class="quick-facts">
+            <div class="fact-item">
+              <span>Location:</span>
+              <b>Bhubaneswar, India</b>
+            </div>
+            <div class="fact-item">
+              <span>Email:</span>
+              <b>debasis.codes@gmail.com</b>
+            </div>
+            <div class="fact-item">
+              <span>Education:</span>
+              <b>Computer Science Student</b>
+            </div>
+            <div class="fact-item">
+              <span>Availability:</span>
+              <b style="color: var(--accent)">Open to Work</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section-padding"
+      id="skills"
+      style="background-color: var(--bg-card)"
+    >
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-subtitle">My Technical Level</p>
+
+        <div class="skills-wrapper">
+          <div class="skill-group">
+            <h3>Technical Skills</h3>
+
+            <div class="progress-bar-container">
+              <div class="progress-info">
+                <span>Python</span>
+                <span>35%</span>
+              </div>
+              <div class="progress-bg">
+                <div class="progress-fill" style="width: 35%"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar-container">
+              <div class="progress-info">
+                <span>C Programming</span>
+                <span>75%</span>
+              </div>
+              <div class="progress-bg">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar-container">
+              <div class="progress-info">
+                <span>HTML5 & CSS3</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bg">
+                <div class="progress-fill" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tools & Soft Skills</h3>
+            <div class="tag-container">
+              <span class="tag">VS Code</span>
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" id="experience">
+      <div class="container">
+        <h2 class="section-title">Qualification</h2>
+        <p class="section-subtitle">My Journey</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2025 - Present</span>
+            <div class="timeline-card">
+              <h3>Bachelor of Science(CS)</h3>
+              <p class="text-muted">LIT, Bhubaneswar</p>
+              <p>
+                Currently pursuing my degree with a focus on core programming
+                concepts.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-date">Dec 2025</span>
+            <div class="timeline-card">
+              <h3>Hackathon Participant</h3>
+              <p class="text-muted">CYBER HARVEST</p>
+              <p>
+                Responsible for Front-End Architecture using HTML/CSS. Designed
+                the user interface for an Farmer-Friendly online information
+                tool.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" id="projects">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Recent Works</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-img">
+              <i class="fas fa-robot fa-3x"></i>
+            </div>
+            <div class="project-content">
+              <h3>Cyber HARVEST</h3>
+              <p>
+                A smart informative assistant built during a hackathon. Features
+                a responsive UI and intuitive design.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>AI Integration</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-text"
+                  >Live Demo <i class="fas fa-external-link-alt"></i
+                ></a>
+                <a href="#" class="link-text"
+                  >Code <i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img">
+              <i class="fas fa-vial fa-3x"></i>
+            </div>
+            <div class="project-content">
+              <h3>Periodic Table UI</h3>
+              <p>
+                An interactive periodic table of elements showcasing CSS Grid
+                capabilities and hover effects.
+              </p>
+              <div class="project-tags">
+                <span>CSS Grid</span>
+                <span>HTML</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-text"
+                  >Live Demo <i class="fas fa-external-link-alt"></i
+                ></a>
+                <a href="#" class="link-text"
+                  >Code <i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img">
+              <i class="fas fa-code fa-3x"></i>
+            </div>
+            <div class="project-content">
+              <h3>Python Utility Scripts</h3>
+              <p>
+                A collection of C and Python scripts for data processing and
+                algorithm implementation.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>C</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="link-text"
+                  >View Repo <i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section-padding"
+      id="services"
+      style="background-color: var(--bg-card)"
+    >
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">What I Offer</p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h3>Web Development</h3>
+            <p>
+              Building responsive and fast loading websites using modern HTML5
+              and CSS3.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fab fa-python service-icon"></i>
+            <h3>Python Scripting</h3>
+            <p>
+              Automating tasks and data processing using efficient Python
+              scripts.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-bug service-icon"></i>
+            <h3>Code Debugging</h3>
+            <p>
+              Helping troubleshoot and fix logic errors in C and Python
+              programs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Let's Get in Touch</p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Bhubaneswar, Odisha, India</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:debasis.codes@gmail.com">
+                    debasis.codes@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 8456082386</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 DEBASIS. All Rights Reserved.</p>
+        <div
+          class="social-icons"
+          style="justify-content: center; margin-top: 20px; font-size: 1.2rem"
+        >
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="back-to-top" onclick="window.scrollTo(0, 0)">
+          <i class="fas fa-arrow-up"></i> Back to Top
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
